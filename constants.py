@@ -1,7 +1,7 @@
-HELLO_MESSAGE = '''Привет'''
-
-MORTGAGE_AMOUNT_REQUEST_MESSAGE = ''
-MORTGAGE_INIT_PAYMENT_MESSAGE = ''
-
-
+HELLO_MESSAGE = '''Привет, {}! Я помогу тебе оформить ипотеку на твою мечту'''
+MORTGAGE_AMOUNT_REQUEST_MESSAGE = 'Введи желаемую сумму ипотеки'
+MORTGAGE_INIT_PAYMENT_MESSAGE = 'Введи сумму имеющегося первоначального взноса'
+MORTGAGE_INIT_PAYMENT_ERROR_MESSAGE = 'Сумма первоначального взноса должна быть больше 15%'
+SUCCESS_MESSAGE = 'Ура! Остался один шаг, переходи по ссылке и добавь недостающую информацию'
 RESPONSE_MESSAGE = 'https://domclick.ru/ipoteka/programs/onlajn-zayavka'
+COMMAND_ERROR = 'Я так не умею. Давай сначала /start'
